@@ -13,29 +13,6 @@
   </a>
 </p>
 
-<a href="https://flutter.io/">Flutter</a> is a mobile app SDK for building high-performance, high-fidelity, apps for iOS and Android, from a single codebase.
-
-If you appreciate the content 📖<br>
-Support project visibility, give a ⭐<br>
-Also 👍| ⭐| 👏 links to support their authors !
-
-<div style="text-align: center"><table><tr>
-<td style="text-align: center">
-<img src="https://marcinszalek.pl/wp-content/uploads/2018/05/ff_16.gif" width="200" />
-</td>
-<td style="text-align: center">
-  <a href="https://twitter.com/BlueAquilae/status/1018208010643103744">
-<img src="https://user-images.githubusercontent.com/1295961/42728108-34e485a0-87b3-11e8-94af-224f81bec82d.gif" width="200"/>
-  </a>
-</td>
-<td style="text-align: center">
-<img src="https://user-images.githubusercontent.com/1295961/42548085-a07fcaf4-84c5-11e8-9fdc-7aa86c46f316.png" width="200"/>
-</td>
-  <td style="text-align: center">
-<img src="https://raw.githubusercontent.com/letsar/flutter_staggered_grid_view/master/doc/images/dynamic_tile_sizes.gif" width="200"/>
-</td>
-</tr></table></div>
-
 
 ### Fun
 
