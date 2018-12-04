@@ -52,14 +52,14 @@ O Flutter é um SDK de aplicativo para dispositivos móveis para criar aplicativ
 - [Community](#community)
 - [Books](#books)
 - [Bonus](#bonus)
- <p class="lead mb-5">   Sites Feito em BootStrap  <a href=" https://desenvolvedoricotrade.github.io/Compre-este-modeloTemplate/ "> </p>
+ <p class="lead mb-5">   Sites Feito em BootStrap  <a href=" https://desenvolvedoricotrade.github.io/Compre-este-modeloTemplate/ "> Quero ver! </a></p>
     
+  <h2> Quero ver! </h2>
   
-  
-            <h2> VC é Desenvolvedor  de Apps ? Monetize seus  projetos!</h2>
+           
                                         
                                         
-                                        
+                                        VC é Desenvolvedor  de Apps ? Monetize seus  projetos!
             <p class="lead mb-5">   Cadastre sua Empresa e Monetize!  <a href="https://cnhv.co/894dl  "> pin </a>!</p>
            
                                                                                                        
