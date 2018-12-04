@@ -13,10 +13,10 @@
     <img alt="Awesome" src="#" />
   </a>
 </p>
+O Flutter é um SDK de aplicativo para dispositivos móveis para criar aplicativos de alta fidelidade e alta fidelidade para iOS e Android, a partir de uma única base de código.
+<a href="# /">Flutter</a>  
 
-<a href="# /">Flutter</a> is a mobile app SDK for building high-performance, high-fidelity, apps for iOS and Android, from a single codebase.
-
-If you appreciate the content 📖, support projects visibility, give 👍| ⭐| 👏
+ Se você aprecia o conteúdo 📖, suporte a visibilidade de projetos, dê👍| ⭐| 👏
 
 <div style="text-align: center"><table><tr>
   <td style="text-align: center">
@@ -51,5 +51,7 @@ If you appreciate the content 📖, support projects visibility, give 👍| ⭐|
 - [Utilities](#utilities)
 - [Community](#community)
 - [Books](#books)
-- [Bonus](#bonus)
-cleverton Developer 
+- [Bonus](#bonus)-
+
+___  xxxxxx  ______
+-[cleverton Developer ]
