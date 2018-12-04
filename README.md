@@ -59,15 +59,7 @@ O Flutter é um SDK de aplicativo para dispositivos móveis para criar aplicativ
            
                                         
                                         
-                                        VC é Desenvolvedor  de Apps ? Monetize seus  projetos!
-            <p class="lead mb-5">   Cadastre sua Empresa e Monetize!  <a href="https://cnhv.co/894dl  "> pin </a>!</p>
-           
-                                                                                                       
-                                                                                                       
-          </div>
-        </div>
-      </div>
-    </section>
+                                        
     <!-- Services -->
 
-- developer clevertonk5@gmail.com)
+ developer clevertonk5@gmail.com)
