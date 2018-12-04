@@ -10,7 +10,7 @@
   </a>
   <img alt="Entries" src="https://img.shields.io/badge/Items-223-lightgrey.svg" />
   <a href="#">
-    <img alt="Awesome" src="#" />
+   
   </a>
 </p>
 O Flutter é um SDK de aplicativo para dispositivos móveis para criar aplicativos de alta fidelidade e alta fidelidade para iOS e Android, a partir de uma única base de código.
@@ -51,7 +51,7 @@ O Flutter é um SDK de aplicativo para dispositivos móveis para criar aplicativ
 - [Utilities](#utilities)
 - [Community](#community)
 - [Books](#books)
-- [Bonus](#bonus)-
+- [Bonus](#bonus)
 
-___  xxxxxx  ______
--[cleverton Developer ]
+
+-[cleverton Developer ] (#clevertonk5@gmail.com)
