@@ -16,8 +16,7 @@
 O Flutter é um SDK de aplicativo para dispositivos móveis para criar aplicativos de alta fidelidade e alta fidelidade para iOS e Android, a partir de uma única base de código.
 <a href="# /">Flutter</a>  
 
- Se você aprecia o conteúdo 📖, suporte a visibilidade de projetos, dê👍| ⭐| 👏
-
+ o conteúdo Tem 📖, suporte e visibilidade! ⭐
 <div style="text-align: center"><table><tr>
   <td style="text-align: center">
   <a href="https://twitter.com/BlueAquilae/status/1049315328835182592">
@@ -38,7 +37,7 @@ O Flutter é um SDK de aplicativo para dispositivos móveis para criar aplicativ
 </td>
 </tr></table></div>
 
-## Contents
+## Detalhes e Assesso Esclusivo do Administrador  
 
 - [Articles](#articles)
 - [Videos](#videos)
@@ -61,5 +60,5 @@ O Flutter é um SDK de aplicativo para dispositivos móveis para criar aplicativ
                                         
                                         
     <!-- Services -->
-
+Adm.
  *developer cleverton
