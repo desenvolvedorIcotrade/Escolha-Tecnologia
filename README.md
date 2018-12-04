@@ -52,6 +52,4 @@ O Flutter é um SDK de aplicativo para dispositivos móveis para criar aplicativ
 - [Community](#community)
 - [Books](#books)
 - [Bonus](#bonus)
-
-
--[cleverton Developer ] (#clevertonk5@gmail.com)
+- developer clevertonk5@gmail.com)
