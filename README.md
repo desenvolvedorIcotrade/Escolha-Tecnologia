@@ -55,32 +55,7 @@ O Flutter é um SDK de aplicativo para dispositivos móveis para criar aplicativ
 
  Desenvolvido Em Bootstrap     
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <meta name="verification" content="4258b7695d1b80a52af932eea3f56dee" />
-    <title> Portfolio - Start - Template</title>
-
-    <!-- Bootstrap Core CSS -->
     
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    
-    
-    
-    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
-
-    
-    
-    <!-- Custom CSS -->
-    <link href="css/stylish-portfolio.min.css" rel="stylesheet">
-
-    
- 
   
   <body id="page-top"> 
 <script>
