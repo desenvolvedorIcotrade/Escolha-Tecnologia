@@ -1,13 +1,7 @@
 
 [<img src="https://user-images.githubusercontent.com/1295961/45949308-cbb2f680-bffb-11e8-8054-28c35ed6d132.png" align="center" width="850">](#)
 
-<p align="center">
-  <a href="#">
-    <img alt="StackOverflow" src="https://img.shields.io/badge/StackOverflow-7774-orange.svg" />
-  </a>
-  <a href="#">
-    <img alt="Github Repositories" src="https://img.shields.io/badge/Repos-11873-brightgreen.svg" />
-  </a>
+
   <img alt="Entries" src="https://img.shields.io/badge/Items-223-lightgrey.svg" />
   <a href="#">
    
