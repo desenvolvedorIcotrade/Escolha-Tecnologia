@@ -56,21 +56,6 @@ O Flutter é um SDK de aplicativo para dispositivos móveis para criar aplicativ
 - [Community](#community)
 - [Books](#books)
 - [Bonus](#bonus)
- <p class="lead mb-5">  Um Site Feito em BootStrap Puro <a href=" http://bootstrap-puro.tk/ "> Quero ver! </a></p>
+ 
     
- essa ilusão de óptica no Adobe Illustrator no dia 26 de setembro, em 2016. Para cria-la, usei o efeito de Akioshi Kitaoka. É um efeito de traços em preto e branco por cima de uma imagem colorida de fundo, que ativa o foco da visão e dá a impressão de que a imagem está se movendo. O psicoterapeuta japonês Dr. Yamamoto Hashima não tem nada a ver com essa imagem. Na realidade, Yamamoto Hashima nem existe realmente”
-
-A imagem ficou famosa em outubro de 2018, quando Alice Proverbio, uma professora de neurociência cognitiva da Universidade de Milano Biccoca (Itália), a publicou no Twitter:
-existem duas áreas do cérebro responsáveis por este efeito: uma chamada V5, que se dedica ao processamento do movimento, e outra designada V4, que processa a cor e a forma. Quando os neurônios V4 ficam muito saturados, são ativados os neurônios V5, que processam o movimento. Essa “compensação” entre os dois tipos de neurônios causam essa sensação de movimento.
-
-Ou seja, nada a ver com estresse!
-
-Conclusão
-A imagem espalhada como se fosse um teste para se medir a quantidade de estresse é, na verdade uma ilustração criada por um artista ucraniano e nada tem a ver com testes anti-stress!  <img style="-webkit-user-select: none;cursor: zoom-in;" src="http://www.e-farsas.com/wp-content/uploads/ilusao.jpg" width="623" height="626">
-           
-                                        
-                                        
-                                        
-    <!-- Services -->
-Adm.
- *developer cleverton
+ 
