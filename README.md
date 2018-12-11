@@ -16,8 +16,7 @@
 
  
    
-  </a>
-</p>
+  
 O Flutter é um SDK de aplicativo para dispositivos móveis para criar aplicativos de alta fidelidade e alta fidelidade para iOS e Android, a partir de uma única base de código.
 <a href="# /">Flutter</a>  
 
@@ -56,6 +55,16 @@ O Flutter é um SDK de aplicativo para dispositivos móveis para criar aplicativ
 - [Community](#community)
 - [Books](#books)
 - [Bonus](#bonus)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
     
  
