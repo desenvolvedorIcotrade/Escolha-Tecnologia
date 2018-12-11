@@ -4,18 +4,21 @@
  
 
 	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-		<meta name="robots" content="noindex, nofollow" />
-		<meta name="lomadee-verification" content="noindex, nofollow" />
 		
-		<title>Lomadee | Verification</title>
-		
-		<link href="/assets/img/favico.ico" rel="icon" type="image/x-icon" />
 	</head>
 	<body>
-		<h4>Lomadee</h4>
-		<p id="lomadee-verification-22763921">Publisher: 22763921</p>
+		<script type="text/javascript">
+var lmdimgpixel=document.createElement('img');
+lmdimgpixel.src='//secure.lomadee.com/pub.png?pid=22763921';
+lmdimgpixel.id='lmd-verification-pixel-22763921';
+lmdimgpixel.style='display:none';
+
+var elmt = document.getElementsByTagName('body')[0];
+elmt.appendChild(lmdimgpixel);
+</script>
+		
+		
+		
 	</body>
 </html>
   
