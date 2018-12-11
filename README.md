@@ -1,26 +1,6 @@
+ Integrando Forkeds Joinville Santa Catarina
 
-<html>
-  
- 
-
-	<head>
-		
-	</head>
-	<body>
-		<script type="text/javascript">
-var lmdimgpixel=document.createElement('img');
-lmdimgpixel.src='//secure.lomadee.com/pub.png?pid=22763921';
-lmdimgpixel.id='lmd-verification-pixel-22763921';
-lmdimgpixel.style='display:none';
-
-var elmt = document.getElementsByTagName('body')[0];
-elmt.appendChild(lmdimgpixel);
-</script>
-		
-		
-		
-	</body>
-
+  Developer_Cleverton Rocha 
   
   
 
@@ -424,6 +404,5 @@ This is version 3 of the `aws-sdk` gem. Version 2 can be found at branch:
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx--------------------------------------xxxxxxxxxxxxxxxxxxxxxxxxxxxx-----------------xxxxxxxxxxxxxxxx
 
 _
-Developer Cleverton Rocha 
-Joinville Santa Catarina integrando Tecnologias!
-</html>
+integrando Tecnologias!
+
