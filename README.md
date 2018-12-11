@@ -57,7 +57,6 @@ O Flutter é um SDK de aplicativo para dispositivos móveis para criar aplicativ
 - [Bonus](#bonus)
  
 
-[<script src="//ad.lomadee.com/banners/script.js?sourceId=35929943&dimension=10&height=1351&width=750&method=0" type="text/javascript" language="javascript"></script>]
 
     
  
