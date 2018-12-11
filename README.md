@@ -206,4 +206,95 @@ my-app
     └── registerServiceWorker.js
 ```
 
+# [Jekyll](https://jekyllrb.com/)
 
+[![Gem Version](https://img.shields.io/gem/v/jekyll.svg)][ruby-gems]
+[![Linux Build Status](https://img.shields.io/travis/jekyll/jekyll/master.svg?label=Linux%20build)][travis]
+[![Windows Build status](https://img.shields.io/appveyor/ci/jekyll/jekyll/master.svg?label=Windows%20build)][appveyor]
+[![Test Coverage](https://img.shields.io/codeclimate/coverage/github/jekyll/jekyll.svg)][coverage]
+[![Code Climate](https://img.shields.io/codeclimate/github/jekyll/jekyll.svg)][codeclimate]
+[![Dependency Status](https://img.shields.io/gemnasium/jekyll/jekyll.svg)][gemnasium]
+[![Security](https://hakiri.io/github/jekyll/jekyll/master.svg)][hakiri]
+
+[ruby-gems]: https://rubygems.org/gems/jekyll
+[gemnasium]: https://gemnasium.com/jekyll/jekyll
+[codeclimate]: https://codeclimate.com/github/jekyll/jekyll
+[coverage]: https://codeclimate.com/github/jekyll/jekyll/coverage
+[hakiri]: https://hakiri.io/github/jekyll/jekyll/master
+[travis]: https://travis-ci.org/jekyll/jekyll
+[appveyor]: https://ci.appveyor.com/project/jekyll/jekyll/branch/master
+
+Jekyll is a simple, blog-aware, static site generator perfect for personal, project, or organization sites. Think of it like a file-based CMS, without all the complexity. Jekyll takes your content, renders Markdown and Liquid templates, and spits out a complete, static website ready to be served by Apache, Nginx or another web server. Jekyll is the engine behind [GitHub Pages](https://pages.github.com), which you can use to host sites right from your GitHub repositories.
+
+
+
+
+
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX__________________________________________XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+
+# Amazon ECS Container Agent
+
+![Amazon ECS logo](doc/ecs.png "Amazon ECS")
+
+[![Build Status](https://travis-ci.org/aws/amazon-ecs-agent.svg?branch=master)](https://travis-ci.org/aws/amazon-ecs-agent)
+[![Build status](https://ci.appveyor.com/api/projects/status/upkhbwf2oc0srglt?svg=true)](https://ci.appveyor.com/project/AmazonECS/amazon-ecs-agent)
+
+
+The Amazon ECS Container Agent is a component of Amazon Elastic Container Service
+([Amazon ECS](http://aws.amazon.com/ecs/)) and is responsible for managing containers on behalf of Amazon ECS.
+
+## Usage
+
+The best source of information on running this software is the
+[Amazon ECS documentation](http://docs.aws.amazon.com/AmazonECS/latest/developerguide/ECS_agent.html).
+
+Please note that from Agent version 1.20.0, Minimum required Docker version is 1.9.0, corresponding to Docker API version 1.21. For more information, please visit [Amazon ECS Container Agent Versions](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/container_agent_versions.html).
+
+
+
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx---------------------------xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+
+
+# PINRemoteImage
+
+## Fast, non-deadlocking parallel image downloader and cache for iOS
+
+[![CocoaPods compatible](https://img.shields.io/cocoapods/v/PINRemoteImage.svg?style=flat)](https://cocoapods.org/pods/PINRemoteImage)
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+[![Build status](https://badge.buildkite.com/556f751bb6455e96687a5f8fb05a65f2df9db8b033121b8c3d.svg?branch=master&style=flat)](https://buildkite.com/pinterest/pinremoteimage)
+
+[PINRemoteImageManager](Source/Classes/PINRemoteImageManager.h) is an image downloading, processing and caching manager. It uses the concept of download and processing tasks to ensure that even if multiple calls to download or process an image are made, it only occurs one time (unless an item is no longer in the cache). PINRemoteImageManager is backed by **GCD** and safe to **access** from **multiple threads** simultaneously. It ensures that images are decoded off the main thread so that animation performance isn't affected. None of its exposed methods allow for synchronous access. However, it is optimized to call completions on the calling thread if an item is in its memory cache.
+
+PINRemoteImage supports downloading many types of files. It, of course, **supports** both **PNGs** and **JPGs**. It also supports decoding **WebP** images if Google's library is available. It even supports **GIFs** and **Animated WebP** via PINAnimatedImageView.
+
+PINRemoteImage also has two methods to improve the experience of downloading images on slow network connections. The first is support for **progressive JPGs**. This isn't any old support for progressive JPGs though: PINRemoteImage adds an attractive blur to progressive scans before returning them.
+
+![Progressive JPG with Blur](/progressive.gif "Looks better on device.")
+
+[PINRemoteImageCategoryManager](Pod/Classes/PINRemoteImageCategoryManager.h) defines a protocol which UIView subclasses can implement and provide easy access to
+PINRemoteImageManager's methods. There are **built-in categories** on **UIImageView**, **PINAnimatedImageView** and **UIButton**, and it's very easy to implement a new category. See [UIImageView+PINRemoteImage](/Pod/Classes/Image Categories/UIImageView+PINRemoteImage.h) of the existing categories for reference.
+
+
+### Download an image and set it on an image view:
+
+**Objective-C**
+```objc
+UIImageView *imageView = [[UIImageView alloc] init];
+[imageView pin_setImageFromURL:[NSURL URLWithString:@"http://pinterest.com/kitten.jpg"]];
+```
+
+**Swift**
+```swift
+let imageView = UIImageView()
+imageView.pin_setImage(from: URL(string: "https://pinterest.com/kitten.jpg")!)
+```
+
+### Download a progressive jpeg and get attractive blurred updates:
+
+<img src="/desenvolvedorIcotrade/PINRemoteImage/blob/master/progressive.gif?raw=true" alt="progressive.gif">
