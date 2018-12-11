@@ -396,5 +396,6 @@ This is version 3 of the `aws-sdk` gem. Version 2 can be found at branch:
 
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx--------------------------------------xxxxxxxxxxxxxxxxxxxxxxxxxxxx-----------------xxxxxxxxxxxxxxxx
 
-
-Devevoloper Cleverton Rocha Joinville Santa Catarina integrando Tecnologias!
+_
+Developer Cleverton Rocha 
+Joinville Santa Catarina integrando Tecnologias!
