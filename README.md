@@ -6,7 +6,7 @@
   
   
   
-  [<img class="irc_mi" src="http://files.softicons.com/download/toolbar-icons/stainless-applications-icons-by-iconleak/png/256x256/9.png" onload="typeof google==='object'&amp;&amp;google.aft&amp;&amp;google.aft(this)" width="256" height="256" style="margin-top: 49px;" alt="Resultado de imagem para icones png"> MENU ]
+  <img class="irc_mi" src="http://files.softicons.com/download/toolbar-icons/stainless-applications-icons-by-iconleak/png/256x256/9.png" onload="typeof google==='object'&amp;&amp;google.aft&amp;&amp;google.aft(this)" width="100" height="100" style="margin-top: 10px;" alt="Resultado de imagem para icones png"> MENU
   
 
 [<img src="https://user-images.githubusercontent.com/1295961/45949308-cbb2f680-bffb-11e8-8054-28c35ed6d132.png" align="center" width="850">]
