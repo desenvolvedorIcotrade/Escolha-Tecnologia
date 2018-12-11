@@ -297,4 +297,104 @@ imageView.pin_setImage(from: URL(string: "https://pinterest.com/kitten.jpg")!)
 
 ### Download a progressive jpeg and get attractive blurred updates:
 
-<img src="/desenvolvedorIcotrade/PINRemoteImage/blob/master/progressive.gif?raw=true" alt="progressive.gif">
+
+
+
+XXXXXXXXXXXXXXXXXXXXXXX-----------------------------xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+## Running Locally..
+
+Make sure you have [Node.js](http://nodejs.org/) and the [Heroku CLI](https://cli.heroku.com/) installed.
+
+```sh
+$ git clone git@github.com:heroku/node-js-getting-started.git # or clone your own fork
+$ cd node-js-getting-started
+$ npm install
+$ npm start
+```
+
+Your app should now be running on [local](https://desenvolvedoricotrade.github.io/start-portfolio/).
+
+## Deploying to Heroku
+
+```
+$ heroku create
+$ git push heroku master
+$ heroku open
+```
+or
+
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+
+## Documentation
+
+For more information about using Node.js on Heroku, see these Dev Center articles:
+
+- [Getting Started with Node.js on Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs)
+- [Heroku Node.js Support](https://devcenter.heroku.com/articles/nodejs-support)
+- [Node.js on Heroku](https://devcenter.heroku.com/categories/nodejs)
+- [Best Practices for Node.js Development](https://devcenter.heroku.com/articles/node-best-practices)
+- [Using WebSockets on Heroku with Node.js](https://devcenter.heroku.com/articles/node-websockets)
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-------------------------------------------xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+
+
+# glTF Extension for Visual Studio Code
+
+[![GitHub issues](https://img.shields.io/github/issues/AnalyticalGraphicsInc/gltf-vscode.svg)](https://github.com/AnalyticalGraphicsInc/gltf-vscode/issues) [![Gitter chat](https://img.shields.io/gitter/room/AnalyticalGraphicsInc/gltf-vscode.svg)](https://gitter.im/gltf-vscode/Lobby) [![GitHub license](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/AnalyticalGraphicsInc/gltf-vscode/blob/master/LICENSE.md) [![VS Code marketplace](https://vsmarketplacebadge.apphb.com/installs/cesium.gltf-vscode.svg)](https://marketplace.visualstudio.com/items?itemName=cesium.gltf-vscode)
+
+## Preview glTF 3D models directly in the editor
+
+![Damaged Helmet by theblueturtle_](images/DamagedHelmetPan.gif)
+
+Command name: `glTF: Preview 3D Model`, default keybinding: <kbd>ALT</kbd> + <kbd>G</kbd>
+
+The above model, other sample models, and associated licenses can be obtained from the [glTF-Sample-Models](https://github.com/KhronosGroup/glTF-Sample-Models) repository.
+
+You can preview glTF files in a number of different rendering engines: BabylonJS, Cesium, and ThreeJS.  The ThreeJS engine will preview the saved model as opposed to the current content in your open VS Code tab.  The Babylon and Cesium engines will first try to preview what is currently in your tab, and only if that fails will it fall back on displaying the version of the model saved on disk.
+
+## Import a binary `.glb` file as text-based `.gltf` and export text-based `.gltf` file to binary `.glb` file.
+
+![GLB conversion](images/GlbConversion.png)
+
+Command name: `glTF: Export to GLB (Binary file)`\
+Command name: `glTF: Import from GLB`
+
+The glTF 3D model format comes in two varieties: `*.gltf` is a JSON-based text file, easily editable with this VS Code extension, often with references to external files such as texturemaps and binary mesh data.  `*.glb` is a binary version, typically smaller and self-contained, but not easily editable.
+
+The `glTF: Export to GLB (Binary file)` command will export your text-based glTF from the editor to a binary `.glb` file.  In the exported version, whitespace in the JSON is stripped out, external file references are read in and converted to GLB binary bufferViews, and the resulting file becomes a self-contained transportable file that can be easily shared.
+
+The `glTF: Import from GLB` command will convert a binary `.glb` to JSON-based `.gltf` for editing, creating a separate file for the binary and additional files for each of the included images.  Note that during import, some filenames are calculated based on the target filename of the output `.gltf`.  For example, converting a sample file `Lantern.glb` to `.gltf` may create the following files:
+
+
+
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx--------------------------------------------------xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+
+# AWS SDK for Ruby - Version 3
+
+[![Gitter](https://badges.gitter.im/aws/aws-sdk-ruby.svg)](https://gitter.im/aws/aws-sdk-ruby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge) [![Build Status](https://travis-ci.org/aws/aws-sdk-ruby.svg?branch=master)](https://travis-ci.org/aws/aws-sdk-ruby) [![Code Climate](https://codeclimate.com/github/aws/aws-sdk-ruby.svg)](https://codeclimate.com/github/aws/aws-sdk-ruby) [![Coverage Status](https://coveralls.io/repos/aws/aws-sdk-ruby/badge.svg?branch=master)](https://coveralls.io/r/aws/aws-sdk-ruby?branch=master)
+[![Dependency Status](https://www.versioneye.com/ruby/aws-sdk/badge.svg)](https://www.versioneye.com/ruby/aws-sdk)
+
+This is version 3 of the `aws-sdk` gem. Version 2 can be found at branch:
+
+* [Version 2 branch](https://github.com/aws/aws-sdk-ruby/tree/version-2).
+
+## Links of Interest
+
+* [Developer Guide](http://docs.aws.amazon.com/sdk-for-ruby/latest/DeveloperGuide/aws-ruby-sdk-about-ruby-sdk.html)
+* [AWS Developer Blog](https://aws.amazon.com/blogs/developer/category/ruby/)
+* [API Docs](http://docs.aws.amazon.com/sdk-for-ruby/v3/api/frames.html)
+* [Upgrading Notes](https://github.com/aws/aws-sdk-ruby/blob/master/UPGRADING.md)
+* [Gitter Channel](https://gitter.im/aws/aws-sdk-ruby)
+
+
+
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx--------------------------------------xxxxxxxxxxxxxxxxxxxxxxxxxxxx-----------------xxxxxxxxxxxxxxxx
+
+
+Devevoloper Cleverton Rocha Joinville Santa Catarina integrando Tecnologias!
