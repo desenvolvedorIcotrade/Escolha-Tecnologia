@@ -20,7 +20,7 @@ elmt.appendChild(lmdimgpixel);
 		
 		
 	</body>
-</html>
+
   
   
 
@@ -426,3 +426,4 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx--------------------------------------xxxxxxxxxx
 _
 Developer Cleverton Rocha 
 Joinville Santa Catarina integrando Tecnologias!
+</html>
