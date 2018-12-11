@@ -1,3 +1,26 @@
+
+<html>
+  
+ 
+
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="robots" content="noindex, nofollow" />
+		<meta name="lomadee-verification" content="noindex, nofollow" />
+		
+		<title>Lomadee | Verification</title>
+		
+		<link href="/assets/img/favico.ico" rel="icon" type="image/x-icon" />
+	</head>
+	<body>
+		<h4>Lomadee</h4>
+		<p id="lomadee-verification-22763921">Publisher: 22763921</p>
+	</body>
+</html>
+  
+  
+
 [<img src="https://user-images.githubusercontent.com/1295961/45949308-cbb2f680-bffb-11e8-8054-28c35ed6d132.png" align="center" width="850">](http://flutter.io)
 
 <p align="center">
