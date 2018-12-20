@@ -1,6 +1,5 @@
- Integrando Forkeds Joinville Santa Catarina
+Forkeds, Joinville Santa Catarina
 
-  Developer_Cleverton Rocha 
   
   
   
@@ -28,7 +27,7 @@
  
    
   
-O Flutter é um SDK de aplicativo para dispositivos móveis para criar aplicativos de alta fidelidade e alta fidelidade para iOS e Android, a partir de uma única base de código.
+
 <a href="# /">Flutter</a>  
 
  o conteúdo Tem 📖, suporte e visibilidade! ⭐
@@ -109,11 +108,10 @@ O Flutter é um SDK de aplicativo para dispositivos móveis para criar aplicativ
 [![devDependency Status](https://david-dm.org/electron/electron/dev-status.svg)](https://david-dm.org/electron/electron?type=dev)
 [![Join the Electron Community on Slack](https://atom-slack.herokuapp.com/badge.svg)](https://atom-slack.herokuapp.com/)
 
-:memo: Available Translations: 🇨🇳 🇹🇼 🇧🇷 🇪🇸 🇰🇷 🇯🇵 🇷🇺 🇫🇷 🇹🇭 🇳🇱 🇹🇷 🇮🇩 🇺🇦 🇨🇿 🇮🇹.
-View these docs in other languages at [electron/i18n](https://github.com/electron/i18n/tree/master/content/).
 
-The Electron framework lets you write cross-platform desktop applications
-using JavaScript, HTML and CSS. It is based on [Node.js](https://nodejs.org/) and
+ [electron/i18n](https://github.com/electron/i18n/tree/master/content/).
+
+[Node.js](https://nodejs.org/) and
 [Chromium](https://www.chromium.org) and is used by the [Atom
 editor](https://github.com/atom/atom) and many other [apps](https://electronjs.org/apps).
 
@@ -122,8 +120,7 @@ announcements.
 
 This project adheres to the Contributor Covenant
 [code of conduct](https://github.com/electron/electron/tree/master/CODE_OF_CONDUCT.md).
-By participating, you are expected to uphold this code. Please report unacceptable
-behavior to [coc@electronjs.org](mailto:coc@electronjs.org).
+
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX----------------------------------------xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 <img src="//ad.lomadee.com/banners/5787/8265b567544e670fd8c55080b52be7fa" border="0" width="300" height="600">
 
@@ -159,7 +156,7 @@ Create React apps with no build configuration.
 * [Creating an App](#creating-an-app) – How to create a new app.
 * [User Guide](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md) – How to develop apps bootstrapped with Create React App.
 
-Create React App works on macOS, Windows, and Linux.<br>
+
 If something doesn’t work, please [file an issue](https://github.com/facebook/create-react-app/issues/new).
 
 ## Quick Overview
@@ -181,41 +178,18 @@ When you’re ready to deploy to production, create a minified bundle with `npm 
 
 ### Get Started Immediately
 
-You **don’t** need to install or configure tools like Webpack or Babel.<br>
-They are preconfigured and hidden so that you can focus on the code.
 
-Just create a project, and you’re good to go.
 
 ## Creating an App
 
-**You’ll need to have Node >= 6 on your local development machine** (but it’s not required on the server). You can use [nvm](https://github.com/creationix/nvm#installation) (macOS/Linux) or [nvm-windows](https://github.com/coreybutler/nvm-windows#node-version-manager-nvm-for-windows) to easily switch Node versions between different projects.
-
-To create a new app, you may choose one of the following methods:
+*(but it’s not required on the server). You can use [nvm](https://github.com/creationix/nvm#installation) (macOS/Linux) or [nvm-windows](https://github.com/coreybutler/nvm-windows#node-version-manager-nvm-for-windows) t
 
 ### npx
 
-```sh
-npx create-react-app my-app
-```
+
 
 *([npx](https://medium.com/@maybekatz/introducing-npx-an-npm-package-runner-55f7d4bd282b) comes with npm 5.2+ and higher, see [instructions for older npm versions](https://gist.github.com/gaearon/4064d3c23a77c74a3614c498a8bb1c5f))*
 
-### npm
-
-```sh
-npm init react-app my-app
-```
-*`npm init <initializer>` is available in npm 6+*
-
-### Yarn
-
-```sh
-yarn create react-app my-app
-```
-*`yarn create` is available in Yarn 0.25+*
-
-It will create a directory called `my-app` inside the current folder.<br>
-Inside that directory, it will generate the initial project structure and install the transitive dependencies:
 
 ```
 my-app
@@ -262,11 +236,10 @@ Jekyll is a simple, blog-aware, static site generator perfect for personal, proj
 
 
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX__________________________________________XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 
 
-# Amazon ECS Container Agent
+
 
 ![Amazon ECS logo](doc/ecs.png "Amazon ECS")
 
@@ -274,20 +247,16 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX__________________________________________XXXXXXX
 [![Build status](https://ci.appveyor.com/api/projects/status/upkhbwf2oc0srglt?svg=true)](https://ci.appveyor.com/project/AmazonECS/amazon-ecs-agent)
 
 
-The Amazon ECS Container Agent is a component of Amazon Elastic Container Service
+
 ([Amazon ECS](http://aws.amazon.com/ecs/)) and is responsible for managing containers on behalf of Amazon ECS.
 
-## Usage
 
-The best source of information on running this software is the
+
 [Amazon ECS documentation](http://docs.aws.amazon.com/AmazonECS/latest/developerguide/ECS_agent.html).
 
-Please note that from Agent version 1.20.0, Minimum required Docker version is 1.9.0, corresponding to Docker API version 1.21. For more information, please visit [Amazon ECS Container Agent Versions](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/container_agent_versions.html).
+ [Amazon ECS Container Agent Versions](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/container_agent_versions.html).
 
 
-
-
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx---------------------------xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 
 
@@ -300,60 +269,26 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx---------------------------xxxxxxxxxxxxxxxxxxxxxx
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![Build status](https://badge.buildkite.com/556f751bb6455e96687a5f8fb05a65f2df9db8b033121b8c3d.svg?branch=master&style=flat)](https://buildkite.com/pinterest/pinremoteimage)
 
-[PINRemoteImageManager](Source/Classes/PINRemoteImageManager.h) is an image downloading, processing and caching manager. It uses the concept of download and processing tasks to ensure that even if multiple calls to download or process an image are made, it only occurs one time (unless an item is no longer in the cache). PINRemoteImageManager is backed by **GCD** and safe to **access** from **multiple threads** simultaneously. It ensures that images are decoded off the main thread so that animation performance isn't affected. None of its exposed methods allow for synchronous access. However, it is optimized to call completions on the calling thread if an item is in its memory cache.
-
-PINRemoteImage supports downloading many types of files. It, of course, **supports** both **PNGs** and **JPGs**. It also supports decoding **WebP** images if Google's library is available. It even supports **GIFs** and **Animated WebP** via PINAnimatedImageView.
-
-PINRemoteImage also has two methods to improve the experience of downloading images on slow network connections. The first is support for **progressive JPGs**. This isn't any old support for progressive JPGs though: PINRemoteImage adds an attractive blur to progressive scans before returning them.
-
+[PINRemoteImageManager](Source/Classes/PINRemoteImageManager.h) 
 ![Progressive JPG with Blur](/progressive.gif "Looks better on device.")
 
-[PINRemoteImageCategoryManager](Pod/Classes/PINRemoteImageCategoryManager.h) defines a protocol which UIView subclasses can implement and provide easy access to
-PINRemoteImageManager's methods. There are **built-in categories** on **UIImageView**, **PINAnimatedImageView** and **UIButton**, and it's very easy to implement a new category. See [UIImageView+PINRemoteImage](/Pod/Classes/Image Categories/UIImageView+PINRemoteImage.h) of the existing categories for reference.
+[PINRemoteImageCategoryManager](Pod/Classes/PINRemoteImageCategoryManager.h) [UIImageView+PINRemoteImage](/Pod/Classes/Image Categories/UIImageView+PINRemoteImage.h) 
 
 
-### Download an image and set it on an image view:
 
-**Objective-C**
-```objc
-UIImageView *imageView = [[UIImageView alloc] init];
 [imageView pin_setImageFromURL:[NSURL URLWithString:@"http://pinterest.com/kitten.jpg"]];
 ```
 
-**Swift**
-```swift
-let imageView = UIImageView()
-imageView.pin_setImage(from: URL(string: "https://pinterest.com/kitten.jpg")!)
+* "https://pinterest.com/kitten.jpg")!)
 ```
 
-### Download a progressive jpeg and get attractive blurred updates:
 
 
 
 
-XXXXXXXXXXXXXXXXXXXXXXX-----------------------------xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+[Node.js](http://nodejs.org/) and the [Heroku CLI](https://cli.heroku.com/) installed.
 
-## Running Locally..
 
-Make sure you have [Node.js](http://nodejs.org/) and the [Heroku CLI](https://cli.heroku.com/) installed.
-
-```sh
-$ git clone git@github.com:heroku/node-js-getting-started.git # or clone your own fork
-$ cd node-js-getting-started
-$ npm install
-$ npm start
-```
-
-Your app should now be running on [local](https://desenvolvedoricotrade.github.io/start-portfolio/).
-
-## Deploying to Heroku
-
-```
-$ heroku create
-$ git push heroku master
-$ heroku open
-```
-or
 
 [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
@@ -381,27 +316,16 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-------------------------------------------xxxxx
 
 Command name: `glTF: Preview 3D Model`, default keybinding: <kbd>ALT</kbd> + <kbd>G</kbd>
 
-The above model, other sample models, and associated licenses can be obtained from the [glTF-Sample-Models](https://github.com/KhronosGroup/glTF-Sample-Models) repository.
+ [glTF-Sample-Models](https://github.com/KhronosGroup/glTF-Sample-Models) repository.
 
-You can preview glTF files in a number of different rendering engines: BabylonJS, Cesium, and ThreeJS.  The ThreeJS engine will preview the saved model as opposed to the current content in your open VS Code tab.  The Babylon and Cesium engines will first try to preview what is currently in your tab, and only if that fails will it fall back on displaying the version of the model saved on disk.
-
-## Import a binary `.glb` file as text-based `.gltf` and export text-based `.gltf` file to binary `.glb` file.
 
 ![GLB conversion](images/GlbConversion.png)
 
 Command name: `glTF: Export to GLB (Binary file)`\
 Command name: `glTF: Import from GLB`
 
-The glTF 3D model format comes in two varieties: `*.gltf` is a JSON-based text file, easily editable with this VS Code extension, often with references to external files such as texturemaps and binary mesh data.  `*.glb` is a binary version, typically smaller and self-contained, but not easily editable.
-
-The `glTF: Export to GLB (Binary file)` command will export your text-based glTF from the editor to a binary `.glb` file.  In the exported version, whitespace in the JSON is stripped out, external file references are read in and converted to GLB binary bufferViews, and the resulting file becomes a self-contained transportable file that can be easily shared.
-
-The `glTF: Import from GLB` command will convert a binary `.glb` to JSON-based `.gltf` for editing, creating a separate file for the binary and additional files for each of the included images.  Note that during import, some filenames are calculated based on the target filename of the output `.gltf`.  For example, converting a sample file `Lantern.glb` to `.gltf` may create the following files:
 
 
-
-
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx--------------------------------------------------xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 
 
@@ -410,11 +334,10 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx---------------------------------------
 [![Gitter](https://badges.gitter.im/aws/aws-sdk-ruby.svg)](https://gitter.im/aws/aws-sdk-ruby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge) [![Build Status](https://travis-ci.org/aws/aws-sdk-ruby.svg?branch=master)](https://travis-ci.org/aws/aws-sdk-ruby) [![Code Climate](https://codeclimate.com/github/aws/aws-sdk-ruby.svg)](https://codeclimate.com/github/aws/aws-sdk-ruby) [![Coverage Status](https://coveralls.io/repos/aws/aws-sdk-ruby/badge.svg?branch=master)](https://coveralls.io/r/aws/aws-sdk-ruby?branch=master)
 [![Dependency Status](https://www.versioneye.com/ruby/aws-sdk/badge.svg)](https://www.versioneye.com/ruby/aws-sdk)
 
-This is version 3 of the `aws-sdk` gem. Version 2 can be found at branch:
 
 * [Version 2 branch](https://github.com/aws/aws-sdk-ruby/tree/version-2).
 
-## Links of Interest
+
 
 * [Developer Guide](http://docs.aws.amazon.com/sdk-for-ruby/latest/DeveloperGuide/aws-ruby-sdk-about-ruby-sdk.html)
 * [AWS Developer Blog](https://aws.amazon.com/blogs/developer/category/ruby/)
@@ -425,7 +348,6 @@ This is version 3 of the `aws-sdk` gem. Version 2 can be found at branch:
 
 
 
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx--------------------------------------xxxxxxxxxxxxxxxxxxxxxxxxxxxx-----------------xxxxxxxxxxxxxxxx
 
 _
 integrando Tecnologias!
