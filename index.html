@@ -1,79 +1,466 @@
 
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8" />
-  <title>#codevember - 5 - Music</title>
-  <link rel="stylesheet" href="styles/index.processed.css">
-  <!--
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.10/vue.min.js"></script>
--->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.17/vue.min.js"></script>
+    <base href="//coinpot.co/" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    
+    <!-- Favicon icon -->
+    <link rel="shortcut icon" href="favicon.ico" />
+
+    <title>CoinPot | Cryptocurrency microwallet</title>
+
+    <!-- Fonts -->
+    <link href='//fonts.googleapis.com/css?family=Poppins:300,400,500,600,700' rel='stylesheet' type='text/css'>
+    <link href="//fonts.googleapis.com/css?family=Droid+Sans+Mono" rel="stylesheet" type='text/css'>
+
+    <!-- CSS -->
+    <link href="/css/core?v=Q7AbQW6bSB8k9oEdpwQ88CIOTScjp-DY4u2i45CPiTo1" rel="stylesheet">
+    
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+
+    <!-- Head Content -->
+    
 </head>
 
-<body>
-  <div id="app" @mouseUp="unselectKnobs">
-    
-    <!-- 
-      Knobs by Kyle Shanks:
-      https://codepen.io/mavrK/details/erQPvP/ 
-    -->
-    <div class="knob-container">
-      <div class="rela-block container">
-        <div v-for="effect in effects" class="rela-inline effect-container" @mouseDown="effect.selected = true;">
-          <div class="rela-block effect-label">
-            <div class="rela-inline effect-active-light" :style="{'background-color': effect.active?effect.color:'#888'}" @click="effect.active = !effect.active"></div>
-            {{effect.label}}
-          </div>
-          <div class="rela-block knob-container">
-            <div v-for="knob in effect.knobs" :class="['rela-inline', 'knob', 'style'+effect.knobStyle]">
-              <div class="rela-block knob-dial" :style="{'color':effect.active?effect.color:'#888'}">
-                <div class="abs-center dial-grip" :style="{'transform': 'translate(-50%,-50%) rotate('+knob.rotation+'deg)'}" @mouseDown.prevent="selectKnob(knob, $event);"></div>
-                <svg class="dial-svg" viewBox="0 0 100 100">
-  <path d="M20,76 A 40 40 0 1 1 80 76" fill="none" stroke="#55595C"/>
-  <path d="M20,76 A 40 40 0 1 1 80 76" fill="none" :stroke="effect.active?effect.color:'#888'" 
-  :style="{'stroke-dashoffset':184 - 184*((knob.rotation*1 + 132)/264)}"/>
-  </svg>
-              </div>
-              <div class="rela-block knob-label" :style="{'color':effect.active?'#E4E8EA':'#888'}">{{knob.label}}</div>
+<body class="fix-sidebar">
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="cssload-speeding-wheel"></div>
+    </div>
+    <div id="wrapper">        
+        <!-- Page Content -->
+        
+    <!-- Top Navigation -->
+    <nav class="navbar navbar-default navbar-static-top m-b-0">
+        <div class="navbar-header">
+            <!-- Toggle icon for mobile view -->
+            <a class="navbar-toggle hidden-sm hidden-md hidden-lg " href="javascript:void(0)" data-toggle="collapse" data-target=".navbar-collapse">
+                <i class="ti-menu"></i>
+                <h4 id="PageContent_PageTitleMobile" style="display:inline-block" class="page-title">Lottery</h4>
+            </a>
+            
+            <div class="top-left-part">
+                <!-- Logo -->
+                <a class="logo" href="dashboard">
+                    <img src="img/menulogo.png" alt="dashboard" class="dark-logo" />
+                    <span class="hidden-xs">
+                        <img src="img/menutext.png" alt="dashboard" class="dark-logo" />
+                    </span>
+                </a>
             </div>
-          </div>
+            <!-- Toggle icon -->
+            <ul class="nav navbar-top-links navbar-left hidden-xs">
+                <li><a href="javascript:void(0)" class="open-close hidden-xs waves-effect waves-light"><i class="icon-arrow-left-circle ti-menu"></i></a></li>
+                <li>
+                    <h2 id="PageContent_PageTitle" class="page-title">Lottery</h2>
+                </li>                
+            </ul>
+            <ul class="nav navbar-top-links navbar-right pull-right">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle u-dropdown waves-effect waves-light" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                        <i class="icon-user fa-fw"></i>
+                        <span id="PageContent_AccountEmail" class="hidden-xs"><span class="__cf_email__" data-cfemail="9ffcf3fae9faedebf0f1f4aadff8f2fef6f3b1fcf0f2">[email&#160;protected]</span></span>
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-right animated flipInY">
+                        <li><a href="account/details">Account details</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li>
+                            <a href="javascript:signOut();">
+                                <i class="icon-logout fa-fw"></i>
+                                Sign out
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
         </div>
-      </div>
+    </nav>
+    <!-- Left navbar-sidebar -->
+    <div class="navbar-default sidebar" role="navigation">
+        <div class="sidebar-nav navbar-collapse slimscrollsidebar">
+            <ul class="nav" id="side-menu" style="margin-bottom:210px">
+                <li>
+                    <a href="dashboard" class="waves-effect">
+                        <i class="icon-home fa-fw"></i>
+                        <span class="hide-menu">Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="news" class="waves-effect">
+                        <i class="icon-speech fa-fw"></i>
+                        <span class="hide-menu">News</span>
+                    </a>
+                </li>
+                                
+                <li>
+                    <a href="lottery" class="waves-effect">
+                        <i class="icon-trophy fa-fw"></i>
+                        <span class="hide-menu">Lottery</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="multiplier" class="waves-effect">
+                        <i class="icon-trophy fa-fw"></i>
+                        <span class="hide-menu">Multiplier</span>
+                    </a>
+                </li>
+                <li class="nav-small-cap m-t-10">&nbsp;&nbsp;&nbsp;Coins &amp; Tokens</li>
+                <li>
+                    <a href="coin/coinpottokens">
+                        <img src="img/coin/coinpottokens/favicon.png"/>
+                        <span class="hide-menu">&nbsp;CoinPot Tokens</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="coin/bitcoincore">
+                        <img src="img/coin/bitcoincore/favicon.png"/>
+                        <span class="hide-menu">&nbsp;Bitcoin Core</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="coin/bitcoincash">
+                        <img src="img/coin/bitcoincash/favicon.png"/>
+                        <span class="hide-menu">&nbsp;Bitcoin Cash</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="coin/dogecoin">
+                        <img src="img/coin/dogecoin/favicon.png"/>
+                        <span class="hide-menu">&nbsp;Dogecoin</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="coin/litecoin">
+                        <img src="img/coin/litecoin/favicon.png"/>
+                        <span class="hide-menu">&nbsp;Litecoin</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="coin/dash">
+                        <img src="img/coin/dash/favicon.png"/>
+                        <span class="hide-menu">&nbsp;Dash</span>
+                    </a>
+                </li>                
+            </ul>
+
+            <div class="menuAd hide-menu">
+                <iframe scrolling="no" frameborder="0" src="//mellowads.com/view/85ABFCB5928E" style="overflow:hidden;width:100%;height:100%;"></iframe>
+            </div>
+        </div>
     </div>
-    <div id="sequencer">
-      <header>
-        <h1>#codevember - 5 - Music</h1>
-      </header>
-      <div id="buttons">
-        <button v-on:click="start" :disabled="isPlaying">▶️ Start</button>
-        <button v-on:click="stop" :disabled="!isPlaying">⏹ Stop</button>
-        <button v-on:click="rewind">⏪ Rewind</button>
-        <button v-on:click="clear">🗑 Clear</button>
-        <select v-model="oscillatorType">
-          <option>sine</option>
-          <option>square</option>
-          <option>sawtooth</option>
-          <option>triangle</option>
-        </select>
-      </div>
-      <div v-for="(row, rowIndex) in notes">
-        <span v-for="(note, noteIndex) in row">
-          <label>
-            <input type="checkbox" v-model="note.value" />
-            <span :class="current === noteIndex ? 'current' : ''"></span>
-        </label>
-        </span>
-      </div>
-      <footer>
-        <a href="https://twitter.com/DonKarlssonSan" target="_blank">Johan Karlsson</a>
-        <p>
-          Knobs by <a href="https://codepen.io/mavrK/pen/erQPvP" target="_blank">Kyle Shanks</a>
-        </p>
-      </footer>
+
+    <!-- Page Content -->
+    <div id="page-wrapper">
+        <div class="container-fluid">
+            <!-- Page Content -->
+            
+    <div id="LotteryPanel">
+        <div class="row">
+            <div class="col-lg-7">
+                <div class="well" id="CurrentRoundPanel">
+                    <div id="CurrentRoundInfo">
+                        <h3 class="box-title pull-right"><i class="icon-clock fa-fw"></i>&nbsp;<span data-bind="countdown: secondsRemaining()"></span></h3>
+                        <h3 class="box-title" style="margin-bottom:0px">CURRENT LOTTERY ROUND</h3>
+                        <p>To be drawn at <span data-bind="text: drawTimestampUTC() + ' UTC'"></span></p>
+
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="alert alert-info">
+                                    <span class="vb">Total tickets bought so far</span>
+                                    <h3 style="margin:0px">
+                                        <i class="icon-people fa-fw"></i>&nbsp;&nbsp;<span data-bind="animate: tickets()"></span> tickets
+                                    </h3>
+                                </div>
+                            </div>                        
+                            <div class="col-sm-6">
+                                <div class="alert alert-info">
+                                    <span class="vb">Total prize fund</span>
+                                    <h3 style="margin:0px">
+                                        <i class="icon-wallet fa-fw"></i>&nbsp;&nbsp;<span data-bind="animate: prizeFund()"></span> tokens
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="alert alert-primary">
+                                    <span class="vb">My tickets bought so far</span>
+                                    <h3 style="margin:0px">
+                                        <i class="icon-user fa-fw"></i>&nbsp;&nbsp;<span data-bind="animate: accountTickets()"></span> tickets
+                                    </h3>
+                                </div>
+                            </div>                        
+                            <div class="col-sm-6">
+                                <div class="alert alert-primary">
+                                    <span class="vb">My chance of winning</span>
+                                    <h3 style="margin:0px">
+                                        <i class="icon-calculator fa-fw"></i>&nbsp;&nbsp;<span data-bind="animate: (accountWinChance() * 100).toFixed(2)"></span> %
+                                    </h3>
+                                </div>                                                                                    
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="alert alert-warning">
+                                    <span class="vb">Winner receives</span>
+                                    <h3 style="margin:0px">
+                                        <i class="icon-trophy fa-fw"></i>&nbsp;&nbsp;<span data-bind="animate: winnersPrize()"></span> tokens
+                                    </h3>
+                                </div>                            
+                            </div>            
+                        
+                            <div class="col-sm-6">
+                                <div class="alert alert-success">
+                                    <span class="vb">5 runners up each get</span>
+                                    <h3 style="margin:0px">
+                                        <i class="icon-star fa-fw"></i>&nbsp;&nbsp;<span data-bind="animate: runnersUpPrize()"></span> tokens
+                                    </h3>
+                                </div>                                                        
+                            </div>
+                        </div>  
+                    </div>
+
+                    <h3 class="box-title" style="margin-bottom:0px">BUY TICKETS</h3>
+                    <div id="BuyTicketsButtons">
+                        <a type="button" class="btn btn-info btn-outline" href="#" data-bind="visible: tokenBalance() >= 1, click: function () { lotterySummaryVM.buyTickets(1) }">1 ticket</a>
+                        <a type="button" class="btn btn-info btn-outline" href="#" data-bind="visible: tokenBalance() >= 10, click: function () { lotterySummaryVM.buyTickets(10) }">10 tickets</a>
+                        <a type="button" class="btn btn-info btn-outline" href="#" data-bind="visible: tokenBalance() >= 100, click: function () { lotterySummaryVM.buyTickets(100) }">100 tickets</a>
+                        <a type="button" class="btn btn-info btn-outline" href="#" data-bind="visible: tokenBalance() >= 1000, click: function () { lotterySummaryVM.buyTickets(1000) }">1,000 tickets</a>
+                        <a type="button" class="btn btn-info btn-outline" href="#" data-bind="visible: tokenBalance() >= 10000, click: function () { lotterySummaryVM.buyTickets(10000) }">10,000 tickets</a>
+                        <a type="button" class="btn btn-info btn-outline" href="#" data-bind="visible: tokenBalance() >= 100000, click: function () { lotterySummaryVM.buyTickets(100000) }">100,000 tickets</a>
+                        <a type="button" class="btn btn-info btn-outline" href="#" data-bind="visible: tokenBalance() >= 1000000, click: function () { lotterySummaryVM.buyTickets(1000000) }">1,000,000 tickets</a>
+                    </div>
+                </div>
+
+                <div class="well mellow">
+                    <iframe id="mellow" scrolling="no" frameborder="0" src="" style="overflow:hidden;width:100%;height:100%" allowtransparency="true"></iframe>
+                </div>
+            </div>
+            <div class="col-lg-5">
+                <div class="well" id="TokensPanel">
+                    <img src="img/coin/coinpottokens/icon.png" class="pull-right" style="width:25%;max-width:96px;margin-top:10px" />
+                    <h3 class="box-title" style="color:#03A9F3">COINPOT TOKENS</h3>
+                    <span class="text-muted vb">Current pot</span>
+                    <h3 style="margin-top:0px"><span data-bind="animate: tokenBalance().toFixed(0)"></span> tokens</h3>
+                    <div class="btn-group">
+                        <a type="button" class="btn btn-info btn-outline" href="coin/coinpottokens">View token summary</a>
+                        <button type="button" class="btn btn-info btn-outline dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="caret"></span></button>
+                        <ul class="dropdown-menu actions" style="height: auto !important; overflow: visible !important;">
+                            <li><a href="coin/coinpottokens/convert">Convert tokens to...</a></li>
+                            <li><a href="mine/coinpottokens" target="_blank">Mine tokens...</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="well mellow2">
+                    <iframe id="mellow2" scrolling="no" frameborder="0" src="" style="overflow:hidden;width:100%;height:100%" allowtransparency="true"></iframe>
+                </div>
+
+                <div class="well" id="InstructionsPanel">
+                    <h3 class="box-title">INSTRUCTIONS</h3>
+                    <ul>
+                        <li>Each lottery round is drawn on the hour, every hour (UTC time)</li>
+                        <li>Each ticket costs <span class="text-info">1 CoinPot token</span> (no refunds offered)</li>
+                        <li>You can buy as many tickets as you like each round</li>
+                        <li>The total prize fund is made up of all the tokens paid for tickets during that round <span class="text-info">plus an extra bonus of 1000 tokens!</span></li>
+                        <li>Winners and runners up are drawn randomly - but you can only win 1 prize each round</li>
+                        <li>There is <span class="text-warning"><i class="icon-trophy fa-fw"></i>1 winner</span> who receives approximately 50% of the total prize fund</li>
+                        <li>There are <span class="text-success"><i class="icon-star fa-fw"></i>5 runners up</span> who each receive approximately 10% of the total prize fund</li>
+                        <li>The results and winning account refs of the previous 5 completed rounds are shown below</li>
+                        <li>Your unique account ref is <span style="color:white" data-bind="text: accountRef()"></span></li>
+                    </ul>
+                </div>                
+            </div>
+        </div>     
+        
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="well" id="PreviousRoundsPanel">
+                    <h3 class="box-title" style="margin-bottom:0px">RECENT COMPLETED ROUNDS</h3>
+                    <p>Showing 5 most recent completed lottery rounds</p>
+
+                    <div data-bind="foreach: previousRounds()">
+                        <div class="row">
+                            <div class="col col-lg-auto">
+                                <h5><i class="icon-clock fa-fw"></i><span data-bind="text: drawTimestampUTC() + ' UTC'"></span></h5>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col col-lg-auto">
+                                <div class="text-info" style="width:260px">
+                                    <i class="icon-people fa-fw"></i><span data-bind="text: tickets()"></span> total tickets bought
+                                </div>
+                            </div>
+                            <div class="col-lg col-lg-auto">
+                                <div class="text-info">
+                                    <i class="icon-wallet fa-fw"></i><span data-bind="text: prizeFund()"></span> tokens total prize fund
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg col-lg-auto">
+                                <div class="text-primary" style="width:260px">
+                                    <i class="icon-user fa-fw"></i><span data-bind="text: accountTickets()"></span> tickets bought by me
+                                </div>
+                            </div>
+                            <div class="col-lg">
+                                <div class="text-primary">
+                                    <i class="icon-calculator fa-fw"></i><span data-bind="text: (winChance(accountTickets(), tickets()) * 100).toFixed(2)"></span> % chance of winning
+                                </div>
+                            </div>                        
+                        </div>                    
+
+                        <div class="row">
+                            <div class="col col-lg-auto">
+                                <div class="text-warning" style="width:260px" data-bind="visible: (winner() != null && winner() != '')">
+                                    <i class="icon-trophy fa-fw"></i><span data-bind="text: winner()"></span> won <span data-bind="text: winnersPrize()"></span> tokens
+                                </div>
+                            </div>
+                            <div class="col-lg">
+                                <div class="text-success" data-bind="visible: (runnersUp() != null && runnersUp().length > 0)">
+                                    <i class="icon-star fa-fw"></i><span data-bind="text: runnersUp().join(', ')"></span> each won <span data-bind="text: runnersUpPrize()"></span> tokens
+                                </div>
+                            </div>
+                        </div>
+                                        
+                        <hr />
+                    </div>
+                    
+
+                    
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-  <script src="scripts/index.js"></script>
+
+        </div>
+
+        <footer class="footer text-center">
+            &copy; 2018 CoinPot |
+            <span class="nobr"><a href="contact.htm" data-toggle="modal" data-target="#ContactModal">Contact</a></span> |
+            <span class="nobr"><a href="terms.htm" data-toggle="modal" data-target="#TermsModal">Terms</a></span> |
+            <span class="nobr"><a href="privacy.htm" data-toggle="modal" data-target="#PrivacyModal">Privacy</a></span>
+        </footer>
+    </div>
+        
+    </div>
+    
+    <!-- Page Modals -->
+    
+    <!-- Page Content -->
+    
+    
+
+
+
+        <!-- Contact Modal -->
+    <div class="modal fade" id="ContactModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content"></div>
+        </div>
+    </div>
+
+    <!-- Terms Modal -->
+    <div class="modal fade" id="TermsModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content"></div>
+        </div>
+    </div>
+
+    <!-- Privacy Modal -->
+    <div class="modal fade" id="PrivacyModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content"></div>
+        </div>
+    </div>
+
+    <!-- Progress Modal -->
+    <div class="modal" id="ProgressModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <span id="registerSpinner" class="glyphicon glyphicon-refresh glyphicon-refresh-animate"></span>
+                    <h4 class="modal-title" style="display: inline" data-bind="text: text"></h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Message Modal -->
+    <div class="modal fade" id="MessageModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">
+                        <span class="glyphicon glyphicon-ok" aria-hidden="true" data-bind="visible: success()"></span>
+                        <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true" data-bind="visible: !success()"></span>
+                        <span data-bind="text: title"></span>
+                    </h4>
+                </div>
+                <div class="modal-body" data-bind="html: bodyHtml">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline btn-info" data-dismiss="modal" data-bind="click: close">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Confirm Modal -->
+    <div class="modal fade" id="ConfirmModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">
+                        <span data-bind="text: title"></span>
+                    </h4>
+                </div>
+                <div class="modal-body" data-bind="html: bodyHtml">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline btn-default" data-dismiss="modal" data-bind="text: closeButton"></button>
+                    <button type="button" class="btn btn-outline btn-info" data-dismiss="modal" data-bind="text: confirmButton, click: confirm"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+        //Google analytics
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-49827542-11', 'auto');
+        ga('send', 'pageview');      
+    </script>
+
+    <!-- Page Scripts -->
+    <script src='/js/core?v=njVP3ZVyl6pV9piAzCamowq5KrVFrtkqPStsvdPAPdY1'></script>
+    <script src='/js/site?v=_T5qLblY4DhVBtQklVQp3qBV0ShJcWi61ps4pQ6uW541'></script>
+    
+    
+    <script src='/js/lottery?v=2t_JsQw9ySdlRfoZKf5GoSEIu8sguZZZvzrqiNES4Q01'></script>
+    <script src='signalr/hubs'></script>
+
+
 </body>
+
 </html>
